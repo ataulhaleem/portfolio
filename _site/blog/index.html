@@ -1,10 +1,43 @@
----
-layout: page
-title: Blog
-permalink: /blog/
----
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blog | Data & Biology Portfolio</title>
+    <link rel="stylesheet" href="/portfolio/assets/css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="icon" href="/assets/images/favicon.svg" type="image/svg+xml">
 
-<div class="blog-page">
+</head>
+<body>
+    <!-- Header -->
+    <header class="site-header">
+        <div class="header-content container">
+            <a href="/portfolio/" class="logo">
+                <div class="logo-icon">
+                    <i class="fas fa-dna"></i>
+                </div>
+                <div class="logo-text">
+                    <h1>Data & Biology Portfolio</h1>
+                    <p>Bioinformatics portfolio showcasing projects and technical writings</p>
+                </div>
+            </a>
+            
+            <nav>
+                <ul class="nav-links">
+                    <li><a href="/portfolio/"><i class="fas fa-home"></i> Home</a></li>
+                    <li><a href="/portfolio/projects/"><i class="fas fa-project-diagram"></i> Projects</a></li>
+                    <li><a href="/portfolio/blog/"><i class="fas fa-blog"></i> Blog</a></li>
+                    <li><a href="/portfolio/about/"><i class="fas fa-user"></i> About</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Page Content -->
+    <main class="container" style="margin-top: 120px; padding: 2rem 0;">
+        <div class="blog-page">
     <div class="blog-header">
         <h1>Bioinformatics Blog</h1>
         <p>Technical articles, tutorials, and insights from my work in computational biology</p>
@@ -151,7 +184,7 @@ permalink: /blog/
             <h3>Subscribe</h3>
             <p>Get notified about new articles</p>
             <form class="subscribe-form">
-                <input type="email" placeholder="Your email address" required>
+                <input type="email" placeholder="Your email address" required="" />
                 <button type="submit">Subscribe</button>
             </form>
         </div>
@@ -211,3 +244,22 @@ permalink: /blog/
     border: none; border-radius: 4px; cursor: pointer;
 }
 </style>
+
+
+    </main>
+
+    <!-- Footer -->
+    <footer class="site-footer">
+        <div class="footer-content container">
+            <div class="copyright">
+                © 2025 Data & Biology Portfolio
+            </div>
+            <div class="footer-links">
+                <a href="https://github.com/ataulhaleem"><i class="fab fa-github"></i> GitHub</a>
+                <a href="mailto:ataulhaleem@gmail.com"><i class="fas fa-envelope"></i> Email</a>
+                <a href="https://linkedin.com/in/ata-ul-haleem-a7b31014"><i class="fab fa-linkedin"></i> LinkedIn</a>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>

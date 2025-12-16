@@ -7,26 +7,19 @@ email: ataulhaleem@gmail.com
 
 theme: minima
 
-# Collections
+# Enable pages collection
 collections:
-  projects:
+  pages:
     output: true
-    permalink: /projects/:path/
-  posts:
-    output: true
+    permalink: /:path/
+
+# Default layout for pages
+defaults:
+- scope:
+    path: "_pages"
+  values:
+    layout: page
 
 # Build settings
 plugins:
-  - jekyll-feed
-
-defaults:
-  - scope:
-      path: ""
-      type: "posts"
-    values:
-      layout: post
-  - scope:
-      path: ""
-      type: "projects"
-    values:
-      layout: project
+- jekyll-feed

@@ -6,28 +6,61 @@
     <title>{{ page.title }} | {{ site.title }}</title>
     <link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
 </head>
 <body>
-    <header>
-        <h1>{{ site.title }}</h1>
-        <p>{{ site.description }}</p>
-        <nav>
-            <a href="/"><i class="fas fa-home"></i> Home</a> | 
-            <a href="/projects/"><i class="fas fa-project-diagram"></i> Projects</a> | 
-            <a href="/blog/"><i class="fas fa-blog"></i> Blog</a> | 
-            <a href="/about/"><i class="fas fa-user"></i> About</a>
-        </nav>
+    <!-- Header -->
+    <header class="site-header">
+        <div class="header-content container">
+            <a href="{{ '/' | relative_url }}" class="logo">
+                <div class="logo-icon">
+                    <i class="fas fa-dna"></i>
+                </div>
+                <div class="logo-text">
+                    <h1>{{ site.title }}</h1>
+                    <p>{{ site.description }}</p>
+                </div>
+            </a>
+            
+            <nav>
+                <ul class="nav-links">
+                    <li><a href="{{ '/' | relative_url }}"><i class="fas fa-home"></i> Home</a></li>
+                    <li><a href="{{ '/projects/' | relative_url }}"><i class="fas fa-project-diagram"></i> Projects</a></li>
+                    <li><a href="{{ '/blog/' | relative_url }}"><i class="fas fa-blog"></i> Blog</a></li>
+                    <li><a href="{{ '/about/' | relative_url }}"><i class="fas fa-user"></i> About</a></li>
+                </ul>
+            </nav>
+        </div>
     </header>
-    
-    <main>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="hero-content container fade-in">
+            <div class="hero-image">
+                <i class="fas fa-user-md"></i>
+            </div>
+            <h2>Welcome to My Bioinformatics Portfolio</h2>
+            <p>I'm <strong>Ata Ul Haleem</strong>, a bioinformatician applying computational tools to solve biological challenges. This portfolio showcases my work in genomics, data analysis, and reproducible research.</p>
+        </div>
+    </section>
+
+    <!-- Main Content -->
+    <main class="container">
         {{ content }}
     </main>
-    
-    <footer>
-        <p>© {{ site.time | date: '%Y' }} {{ site.title }} | 
-           <a href="https://github.com/{{ site.github_username }}"><i class="fab fa-github"></i> GitHub</a> | 
-           <a href="mailto:{{ site.email }}"><i class="fas fa-envelope"></i> Email</a>
-        </p>
+
+    <!-- Footer -->
+    <footer class="site-footer">
+        <div class="footer-content container">
+            <div class="copyright">
+                © {{ site.time | date: '%Y' }} {{ site.title }}
+            </div>
+            <div class="footer-links">
+                <a href="https://github.com/{{ site.github_username }}"><i class="fab fa-github"></i> GitHub</a>
+                <a href="mailto:{{ site.email }}"><i class="fas fa-envelope"></i> Email</a>
+                <a href="https://linkedin.com/in/ata-ul-haleem-a7b31014"><i class="fab fa-linkedin"></i> LinkedIn</a>
+            </div>
+        </div>
     </footer>
 </body>
 </html>
