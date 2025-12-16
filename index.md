@@ -3,42 +3,36 @@ layout: home
 title: Home
 ---
 
-# Bioinformatics & Data Science Portfolio
+# 🧬 Welcome to My Bioinformatics Portfolio
 
-**Applying computational tools to unravel biological questions**
-
----
+I'm **Ata Ul Haleem**, a bioinformatician applying computational tools to solve biological challenges. This portfolio showcases my work in genomics, data analysis, and reproducible research.
 
 ## 🔬 Featured Projects
 
-### [RNA-Seq Differential Expression Analysis](/projects/rna-seq-pipeline)
+<div class="project">
+### 🧪 RNA-Seq Differential Expression Analysis
 A complete pipeline from raw FASTQ files to biological insights using Snakemake, DESeq2, and functional enrichment.
 
-**Skills:** Python, R, Snakemake, DESeq2  
-**GitHub:** [View Code](https://github.com/ataulhaleem/rna-seq-pipeline)
+**Tech:** Python, R, Snakemake, DESeq2  
+**GitHub:** [View Code](https://github.com/ataulhaleem)
+</div>
 
-### [Variant Calling Workflow](/projects/variant-calling)
+<div class="project">
+### 🧬 Variant Calling Workflow
 GATK-based pipeline for identifying genetic variants with quality control and annotation.
 
-**Skills:** GATK, Python, Bash, VCFtools  
-**GitHub:** [View Code](https://github.com/ataulhaleem/variant-calling)
+**Tech:** GATK, Python, Bash, VCFtools  
+**GitHub:** [View Code](https://github.com/ataulhaleem)
+</div>
 
----
+## 🛠️ Technical Skills
+- **Languages:** Python, R, Bash, SQL
+- **Domains:** Genomics, Transcriptomics, Statistical Modeling
+- **Tools:** Snakemake, Nextflow, Docker, Git, Jupyter
 
-## 📝 Latest Articles
-
-1. **[Getting Started with Snakemake](/blog/snakemake-guide)** - A practical guide to reproducible workflows
-2. **[RNA-Seq Quality Control Best Practices](/blog/rna-seq-qc)** - Ensuring data integrity before analysis
-3. **[Python vs R for Bioinformatics](/blog/python-vs-r)** - Choosing the right tool for the job
-
----
-
-## 📫 Contact
+## 📫 Get in Touch
+I'm always open to discussing interesting problems at the interface of data and life sciences.
 
 - **Email:** ataulhaleem@gmail.com
-- **LinkedIn:** [Ata Ul Haleem](https://www.linkedin.com/in/ata-ul-haleem-a7b31014)
-- **GitHub:** [@ataulhaleem](https://github.com/ataulhaleem)
-
----
-
-[View All Projects](/projects) | [Read Blog](/blog) | [About Me](/about)
+- **GitHub:** [ataulhaleem](https://github.com/ataulhaleem)
+- **LinkedIn:** [Ata Ul Haleem](https://linkedin.com/in/ata-ul-haleem-a7b31014)
