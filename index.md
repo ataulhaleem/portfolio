@@ -1,3 +1,8 @@
+---
+layout: home
+title: Home
+---
+
 # Bioinformatics & Data Science Portfolio
 
 **Applying computational tools to unravel biological questions**
