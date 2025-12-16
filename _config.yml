@@ -1,27 +1,12 @@
+# _config.yml
 title: "Data & Biology Portfolio"
 description: "Bioinformatics portfolio showcasing projects and technical writings"
-baseurl: "/portfolio"
-url: "https://ataulhaleem.github.io"
+url: "https://ataulhaleem.github.io" # Your base URL
 github_username: ataulhaleem
 
-# Theme - using 'minima' which works without remote_theme
+# Theme - 'minima' is standard and reliable
 theme: minima
 
-# Collections
-collections:
-  projects:
-    output: true
-    permalink: /projects/:path/
-
-# Defaults
-defaults:
-  - scope:
-      path: ""
-      type: "posts"
-    values:
-      layout: default
-  - scope:
-      path: ""
-      type: "projects"
-    values:
-      layout: default
+# Build settings
+plugins:
+  - jekyll-feed
