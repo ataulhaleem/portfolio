@@ -1,0 +1,26 @@
+title: "Data & Biology Portfolio"
+email: ataulhaleem@gmail.com
+description: "Bioinformatics portfolio showcasing projects and technical writings"
+baseurl: "/portfolio"
+url: "https://ataulhaleem.github.io"
+github_username: ataulhaleem
+
+theme: jekyll-theme-minimal
+remote_theme: pages-themes/minimal@v0.2.0 # GitHub Pages compatible
+
+collections:
+  projects:
+    output: true
+    permalink: /projects/:path/
+
+defaults:
+- scope:
+    path: ""
+    type: "posts"
+  values:
+    layout: "post"
+- scope:
+    path: ""
+    type: "projects"
+  values:
+    layout: "project"
