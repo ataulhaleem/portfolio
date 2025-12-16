@@ -1,26 +1,33 @@
+# _config.yml
 title: "Data & Biology Portfolio"
-email: ataulhaleem@gmail.com
 description: "Bioinformatics portfolio showcasing projects and technical writings"
 baseurl: "/portfolio"
 url: "https://ataulhaleem.github.io"
 github_username: ataulhaleem
 
-theme: jekyll-theme-minimal
-remote_theme: pages-themes/minimal@v0.2.0 # GitHub Pages compatible
+# Use a GitHub Pages compatible theme
+remote_theme: pages-themes/minimal@v0.2.0
 
+# Or use one of these built-in themes:
+# remote_theme: pages-themes/cayman@v0.2.0
+# remote_theme: pages-themes/hacker@v0.2.0
+# remote_theme: pages-themes/midnight@v0.2.0
+
+# Collections
 collections:
   projects:
     output: true
     permalink: /projects/:path/
 
+# Defaults
 defaults:
 - scope:
     path: ""
     type: "posts"
   values:
-    layout: "post"
+    layout: "default"
 - scope:
     path: ""
     type: "projects"
   values:
-    layout: "project"
+    layout: "default"
